@@ -1,10 +1,9 @@
 // write your code below!
-var name = "Jo"
+var name = "Joe"
 var height = 74
-var message = ${name} is ${height} inches tall
+var message = '${name} is ${height} inches tall'
 
-console.log(name)
-console.log(height)
-console.log(message)
+module.export(name,height,message)
+
 
 
